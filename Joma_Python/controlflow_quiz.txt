@@ -1,0 +1,37 @@
+Results Breakdown - 100%
+
+What will get printed?
+i = 0
+my_sum = 0
+while i < 6:
+    my_sum += i
+    i += 1
+print(my_sum)
+
+Your Answer
+15
+
+What will get printed?
+i = 3
+num = 1
+while i < 6:
+    my_sum *= i
+print(my_sum)
+
+Your Answer
+Error in code: my_sum not defined
+
+What will get printed?
+a = 4
+b = 2
+def func1(a,b):
+    if a < b:
+        print("A is smaller than B")
+    if a < b + 2:
+        print("A is very much smaller than B")
+    else:
+        print("B is bigger than A")
+func1(b,a)
+
+Your Answer
+It will print line "A is smaller than B" and "A is very much smaller than B"
